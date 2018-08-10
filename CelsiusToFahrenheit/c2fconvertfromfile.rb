@@ -1,6 +1,7 @@
+# Primitive Celsius to Fahrenheit converter with loading value from file
 celsius = File.read("temperature.txt")
-print "Temperatura podana w stopniach Celsjusza w pliku temperature.txt: "
+print "Temperature written in file temperature.txt: "
 puts celsius
-fahrenheit = (celsius.to_i * 9 / 5) + 32
-print "Podana temperatura wynosi w stopniach Fahrenheita: "
+fahrenheit = (celsius.to_r * 9 / 5.0) + 32
+print "Equivalent Fahrenheit temperature: "
 puts fahrenheit

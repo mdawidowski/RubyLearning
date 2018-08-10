@@ -1,3 +1,4 @@
+# Simple one line decrypting with Caesar Cipher - opposite to encrypting
 shift = File.read("settings.dat").to_i
 text = File.read("cipher.txt")
 decrypt = text.each_char.map(&:ord)

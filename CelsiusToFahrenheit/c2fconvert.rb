@@ -1,5 +1,6 @@
-print "Podaj wartość temperatury w stopniach Celsjusza: "
+# Primitive Celsius to Fahrenheit converter
+print "Celsius temperature: "
 celsius = gets
-fahrenheit = (celsius.to_i * 9 / 5) + 32
-print "Podana temperatura wynosi w stopniach Fahrenheita: "
+fahrenheit = (celsius.to_r * 9 / 5.0) + 32
+print "Equivalent Fahrenheit temperature: "
 puts fahrenheit

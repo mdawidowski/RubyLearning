@@ -1,3 +1,4 @@
+# simple one line encrypting with Caesar Cipher
 shift = File.read("settings.dat").to_i
 text = File.read("text.txt")
 encrypt = text.each_char.map(&:ord)
